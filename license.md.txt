@@ -1,0 +1,7 @@
+All rights reserved.
+
+This repository is published as a defensive disclosure and design record.
+No rights are granted to implement, reproduce, or derive systems from
+this documentation.
+
+Unauthorized implementation is expressly prohibited.

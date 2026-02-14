@@ -1,0 +1,11 @@
+# Differentiation Statement
+
+This system differs from existing recovery environments by:
+
+- Treating the host as untrusted infrastructure
+- Separating observation from action as distinct trust boundaries
+- Enforcing forensic preservation as a primary constraint
+- Operating as a cohesive environment rather than a tool collection
+
+The design emphasizes operator cognition, auditability, and containment
+over automation or speed.

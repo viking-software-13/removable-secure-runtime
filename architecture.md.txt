@@ -1,0 +1,23 @@
+# Architectural Overview
+
+The system is composed of multiple isolated functional domains operating
+under a zero-trust internal model.
+
+### Execution Domain
+Provides a verifiable, transient runtime independent of the host OS.
+
+### Observation Domain
+Enables controlled inspection of host-resident resources without
+implicit trust or modification.
+
+### Correlation Domain
+Aggregates and normalizes observations to support operator reasoning.
+
+### Action Domain
+Executes explicit, operator-authorized workflows subject to audit and
+reversibility constraints.
+
+### Preservation Domain
+Ensures integrity, traceability, and immutability of collected artifacts.
+
+Inter-domain communication is strictly mediated and auditable.
